@@ -929,9 +929,13 @@ form .btn{
         flex-direction: column;
         gap: 4rem;
         align-items: center;
-
        }
-}
+       .contact__title{
+        text-align: center;
+         
+       }
+   }
+
 
 /* MOBILE RESPONSIVE FOR  CONTACTS */
 @media screen and (max-width:520px){
@@ -947,7 +951,7 @@ form .btn{
        padding-top: 12rem;  
         height:100rem;  
     }
-    contact__title{
+    .contact__title{
      text-align: center;
       
     }
